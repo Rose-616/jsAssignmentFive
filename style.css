@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background-color: #e0c4de; /* light pink */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #6a5173; /* purple */
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow added */
+} button {
+    padding: 10px;
+    background-color: #6a5173; /* purple */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    border-radius:10px ;
+}
+
+button:hover {
+    background-color: #4a3560; /* darker purple on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #b698bb; /* light purple */
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.edit-icon {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.colour {
+    color: white;
+    font-weight: bold;
+    background-color: #6a5173; /* purple */
+}
+input[type="checkbox"] {
+    /* appearance: none; */
+    /* -webkit-appearance: none;
+    -moz-appearance: none; */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+}

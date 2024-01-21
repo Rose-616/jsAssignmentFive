@@ -1,0 +1,81 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    /* body{
+        text-align: center;
+        background-color: palevioletred;
+    }
+    .fa-pencil-square-o{
+        
+    
+       margin: auto 5px 5px auto;
+        font-size: 25px;
+        color: white;
+        
+            }
+            .color{
+                font-size: 25px;
+                background-color: rebeccapurple;
+                color: white;
+            }
+            .size{
+                font-size: 25px;
+            }
+            .colour{
+                color: white;
+                font-weight: bold;
+                background-color: rebeccapurple;
+            } */
+
+</style>
+<body>
+    <div><h1>T0-DO APP</h1></div>
+    <div>
+        <input type="text" name="" id="inpu">
+        <button onclick="addItem()" class='colour'>ADD ITEM</button>
+        <button onclick="delAll()" class='colour'>CLEAR LIST</button>
+    </div>
+   <div>
+       <ul id="list"></ul>
+   </div>
+
+
+   <script src="app.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+    <div id="main">
+        <div>
+            <h1>To-Do App</h1>
+        </div>
+        <div>
+            <input type="text" id="inpu" placeholder="Add a new item">
+            <button onclick="addItem()" class='colour'>ADD ITEM</button>
+            <button onclick="delAll()" class='colour'>CLEAR LIST</button>
+        </div>
+        <div>
+            <ul id="list"></ul>
+        </div>
+    
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
